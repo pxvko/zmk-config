@@ -12,6 +12,11 @@
     chosen { zmk,physical-layout = &default_layout; };
 };
 
+&mt {
+    tapping-term-ms = <200>; // 200 is the value set by default
+    flavor = "tap-preferred";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
