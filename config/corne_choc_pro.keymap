@@ -44,7 +44,7 @@
 &none  &mt ESCAPE Q         &mt LEFT_BRACKET W  &kp E           &mt RIGHT_BRACKET R  &kp T  &none  &kp C_VOLUME_UP    &mt BACKSLASH Y  &mt LEFT_PARENTHESIS U  &kp I               &mt RIGHT_PARENTHESIS O  &mt MINUS P         &none
 &none  &mt RIGHT_CONTROL A  &mt LEFT_ALT S      &mt LEFT_GUI D  &mt LEFT_SHIFT F     &kp G  &none  &kp C_VOLUME_DOWN  &kp H            &mt RIGHT_SHIFT J       &mt RIGHT_GUI K     &mt RIGHT_ALT L          &mt SQT SEMICOLON   &none
 &none  &mt GRAVE Z          &kp X               &kp C           &kp V                &kp B                            &kp N            &mt NUMBER_1 M          &mt NUMBER_2 COMMA  &mt NUMBER_3 PERIOD      &mt NUMBER_4 SLASH  &none
-                                                &kp TAB         &lt 2 ENTER          &mo 1                            &kp SPACE        &mo 2                   &kp BACKSPACE
+                                                &lt 3 CAPS      &lt 2 ENTER          &mo 1                            &kp SPACE        &kp TAB                 &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -84,12 +84,12 @@
             >;
         };
 
-        extra_layer_1 {
-            display-name = "EXTRA 1";
+        func_layer {
+            display-name = "Function";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7  &kp F8  &kp F9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
                         &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
