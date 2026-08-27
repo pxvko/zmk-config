@@ -79,7 +79,7 @@
             bindings = <
 &trans  &trans            &trans        &trans        &trans          &trans  &trans  &trans  &kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt KP_EQUAL KP_MINUS  &trans
 &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS            &trans
-&trans  &trans            &trans        &trans        &trans          &trans                  &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                 &trans
+&trans  &trans            &trans        &trans        &trans          &trans                  &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT             &trans
                                         &trans        &trans          &trans                  &kp NUMBER_0   &trans        &trans
             >;
         };
